@@ -1,0 +1,8 @@
+$lg: '(max-width : 1200px)'
+$md: '(max-width : 991px)'
+$sm: '(max-width : 767px)'
+$xs: '(max-width : 480px)'
+
+@mixin bp($media)
+	@media only screen and #{$media} 
+		@content
